@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(233, 229, 229);
+    color: #150505;
+}
+
+#heder{
+    width: 100%;
+    height: 90vh;
+    background-image: url("image/IUB.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    padding: 5px 5%;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo {
+    font-size: 1.8rem;
+    color: #0893f6;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: italic;
+}
+nav ul li{
+    display: inline-block;
+    line-height: none;
+    margin: 10px 20px;
+    position: right;
+    padding: 5px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    font-weight: 800;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+.header-text h1{
+    font-size: 40px;
+    margin-top: 2px;
+    color: #0893f6;
+}
+
+.header-text h1 span{
+    color: rgb(18, 240, 243);
+}
+
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+  
+.center-button {
+    padding: 10px 20px;
+    background-color: #3e9c5f;
+    color: #ffffff; 
+    border: none; 
+    border-radius: 20px; 
+    font-size: 16px;
+}
+
+
+.container h4{
+    font-size: 14px;
+    margin-top: 2px;
+    font-style: italic;
+}
+
+.container h4 span{
+    color: rgb(9, 102, 102);
+}
+
+
+
+
+.picture-row {
+    display: flex;
+    padding: 15px;
+    
+   
+}
+  
+.picture {
+    flex: 1;
+    text-align: center;
+    margin: 15px;
+}
+
+.picture img {
+    width: 400px; 
+    height: 300px; 
+}
+  
+.picture p {
+    margin-top: 10px;
+}
+
+
+
+.social-icon {
+    display: flex;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: #243028;
+    padding: 15px;
+    
+}
+
+
+footer {
+    text-align: center;
+    background-color: hsla(74, 7%, 37%, 0.639);
+    padding: 15px;
+}
+  
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+  
